@@ -37,12 +37,10 @@ nav a:hover{
     color:white;
 }
 aside{
-    width: 800px;
-    height: 300px;
-    
+    width: 1000px;
+    height: 500px;
     margin: 0px auto;
-    border-radius: 20px;
-    padding-top: 50px;}
+    }
     
     h2{
         text-align: center;
