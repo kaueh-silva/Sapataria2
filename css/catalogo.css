@@ -1,0 +1,196 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+nav{
+    text-align: center;
+    width: 320px;
+    margin: 10px auto;
+    border-radius: 20px;
+    height: 50px;
+}
+nav ul{
+    list-style: none;
+    
+}
+nav ul li{
+    display: inline;
+    padding: 5px;
+
+}
+nav ul li a { 
+    
+    color: #333; 
+    text-decoration: none; 
+    
+    padding: 10px;
+}
+nav a:hover{
+    background-color: #565b5e;
+    border-radius: 10px;
+    height: 50px;
+    transition: background-color 1s;
+    color:white;
+    }
+
+
+#pai{
+    width: 600px;
+    height: 700px;
+    
+    display: flex;
+    justify-content: center;
+    align-items:left;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.filhos{
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    overflow: hidden;
+}
+
+#tia{
+    width: 450px;
+    height:600px;
+    overflow: hidden;
+    transform: translate(150%,-235%);
+    border-radius: 30px;
+}
+.filhos div{
+    overflow: hidden;
+    width: 200px;
+    height: 240px;
+    margin: 0px auto;
+    border-radius: 10px;
+}
+.filhos p {
+    margin-left: 2px;
+    margin-top: 5px;
+}
+.filhos a {
+    text-decoration: none;
+
+}
+
+#tio{
+    width: 600px;
+    height: 700px;
+    
+    transform: translate(103%,-187%);
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-wrap: wrap;
+    flex-direction: column ;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    
+}
+.sobrinhos{
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    overflow: hidden;
+}
+.sobrinhos .bolsa {
+    overflow: hidden;
+    width: 200px;
+    height: 240px;
+    margin: 0px auto;
+    border-radius: 10px;}
+
+.sobrinhos p {
+        margin-left: 2px;
+        margin-top: 5px;
+    }
+
+.sobrinhos a {
+        text-decoration: none;
+    
+    }    
+    
+
+
+    #rodape{
+        height: 580px;
+        background-color: black;
+        display: flex;
+        flex-direction: row;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: -1100px;
+     }
+
+     footer{
+        height: 600px;
+        background-color:black;
+       
+    }
+    #lista{
+        color: white;
+        height: 200px;
+        width: 400px;
+        margin: 100px;
+       
+        
+    }
+
+    #lista a {
+        text-decoration: none;
+        color: white;
+    }
+    #lista a:hover{
+        background:white; 
+        color: black;
+        border-radius: 0px;
+        padding: 10px;
+        margin: 5px;
+    }
+    ul{
+        list-style: none;
+    }
+    li{
+        padding: 10px;
+    }
+    
+    h3{
+        margin-bottom: 10px;
+    }
+    #rede{
+        width: 200px;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .social{
+        
+        width: 80px;
+        height: 80px;
+        
+    }
+    #pagamento{
+    
+        width:200px;
+        height:200px;
+        flex-direction:row;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items:center;
+        margin: 5px;
+    }
+    .pagamentos{
+        background-color: white;
+        width: 50px;
+        height: 50px;
+        margin: 5px;
+        border-radius: 10px;
+        
+    }
